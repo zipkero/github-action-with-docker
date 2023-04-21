@@ -1,7 +1,5 @@
 name: build and create docker image from frontend
 on:
-  push:
-    branches: [main]
   release:
     types: [published]
 
